@@ -8,7 +8,41 @@ p {
 }
 
 
+i.code{
+	font-style: italic;
+	background-color: rgb(50, 50, 60);
+	font-family: 'Monaco', 'Lucida Console', 'Courier New';
+	color: orange;
+}
+
+
+div.terminal {
+	font-style: normal;	
+	font-family: 'Monaco', 'Lucida Console', 'Courier New';
+	color: rgb(200, 200, 220);
+	font-size: 12px;
+
+	background: rgb(60, 50, 50);
+	background-color: rgb(60, 50, 50);
+
+	margin: 7px;
+	padding: 7px;
+
+	border-color: rgb(90, 100, 110);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;	
+}
+
+
+
 h2 {
 	color: rgb(220, 220, 220);
 	text-align: left;	
 }
+
+h3 {
+	color: rgb(200, 200, 200);
+	text-align: left;	
+}
+
